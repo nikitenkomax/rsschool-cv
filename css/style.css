@@ -1,0 +1,39 @@
+body {
+  background-image: url(../images/cover.jpg);
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  text-align: center;
+  font-size: 20px;
+}
+.avatar {
+  max-width: 260px;
+}
+.email {
+  color: rgb(25, 135, 179);
+}
+li {
+  text-align: left;
+}
+.code {
+  background-color: rgb(224, 224, 224);
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+}
+.function-name {
+  color: rgb(43, 107, 226);
+}
+.func {
+  color: rgb(127, 0, 246);
+}
+.prop {
+  color: red;
+}
+.background-color-blue {
+  background-color: rgb(35, 193, 255);
+  border-radius: 3px;
+}
