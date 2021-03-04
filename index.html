@@ -4,32 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML, CSS & Git Basics</title>
+    <title>CV</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1 class="cv-title">Max Nikitenko</h1>
-      <img class="avatar" src="images/avatar.jpg" alt="avatar" />
-      <ul>
-        <li>
-          <p>my email <span class="email">nikitenkomax70@gmail.com</span></p>
-        </li>
-        <li>
-          <p>
-            Hello, everyone! My name is Max. I am from Minsk. My main goal in
-            life is to become rich and famous. My strengths, I have
-            <b><i>kindness</i></b> , I am <b>smart</b>, in general I have all
-            the best qualities that I have. I have no experience in IT, but I'm
-            learning and sweating.
-          </p>
-        </li>
-        <li>
-          <p>
-            I have a little skill in html, css, js. Here is an example of my
-            code:
-          </p>
-          <pre class="code">
+    <main>
+      <div class="container">
+        <h1 class="cv-title">Max Nikitenko</h1>
+        <img class="avatar" src="images/avatar.jpg" alt="avatar" />
+        <ul>
+          <li><h4>My contacts:</h4><ul>
+            <li><p class="contact-prgph">email: <span class="email">nikitenkomax70@gmail.com</span></p></li>
+            <li><p class="contact-prgph">github: <a
+              class="contact-link "
+              href="https://github.com/nikitenkomax"
+              target="_blank"
+              >https://github.com/nikitenkomax</a
+            ></p></li>
+          </ul>
+            
+          </li>
+          <li>
+            <p>
+              Hello, everyone! My name is Max. I am from Minsk. My main goal in
+              life is to become rich and famous. My strengths, I have
+              <b><i>kindness</i></b> , I am <b>smart</b>, in general I have all
+              the best qualities that I have. I have no experience in IT, but
+              I'm learning and sweating.
+            </p>
+          </li>
+          <li>
+            <p>
+              I have a little skill in html, css, js. Here is an example of my
+              code:
+            </p>
+            <pre class="code">
 
   <span class="func">function</span> <span class="function-name">showWord</span>(str) {
     <span class="function-name">alert</span>(str);
@@ -37,71 +46,104 @@
   <span class="function-name">showWord</span>('<span class="prop">привет</span>');
 
 </pre>
-        </li>
-        <li>
-          <p>
-            As I wrote earlier, I have no experience in web development, but I'm
-            learning and I have a few small training projects. Links to the
-            projects:
-          </p>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://nikitenkomax.github.io/the-witcher/"
-                  target="_blank"
-                  >The Witcher</a
-                >
-                |
-                <a
-                  href="https://github.com/nikitenkomax/the-witcher"
-                  target="_blank"
-                  >link to repository</a
-                >
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://nikitenkomax.github.io/ghostbusters/"
-                  target="_blank"
-                  >Ghostbusters</a
-                >
-                |
-                <a
-                  href="https://github.com/nikitenkomax/ghostbusters"
-                  target="_blank"
-                  >link to repository</a
-                >
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://nikitenkomax.github.io/Tetris/" target="_blank"
-                  >Tetris</a
-                >
-                |
-                <a href="https://github.com/nikitenkomax/Tetris" target="_blank"
-                  >link to repository</a
-                >
-              </p>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <p>
-            Education. I graduated from
-            <span class="background-color-blue">MGASK</span>, I'm a builder.
-          </p>
-        </li>
-        <li>
-          <p>
-            To be honest, at the moment my English is at a low level, but I am
-            using different translators and trying to learn the language at the
-            same time.
-          </p>
-        </li>
-      </ul>
-    </div>
+          </li>
+          <li>
+            <p>
+              As I wrote earlier, I have no experience in web development, but
+              I'm learning and I have a few small training projects.
+            </p>
+            <details>
+              <summary>Some projects:</summary>
+              <ul>
+                <li>
+                  <p>
+                    <a class="project-link"
+                      href="https://nikitenkomax.github.io/the-witcher/"
+                      target="_blank"
+                      >The Witcher</a
+                    >
+                    |
+                    <a class="project-link"
+                      href="https://github.com/nikitenkomax/the-witcher"
+                      target="_blank"
+                      >link to repository</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a class="project-link"
+                      href="https://nikitenkomax.github.io/ghostbusters/"
+                      target="_blank"
+                      >Ghostbusters</a
+                    >
+                    |
+                    <a class="project-link"
+                      href="https://github.com/nikitenkomax/ghostbusters"
+                      target="_blank"
+                      >link to repository</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a class="project-link"
+                      href="https://nikitenkomax.github.io/Tetris/"
+                      target="_blank"
+                      >Tetris</a
+                    >
+                    |
+                    <a class="project-link"
+                      href="https://github.com/nikitenkomax/Tetris"
+                      target="_blank"
+                      >link to repository</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <p><h4>Education:</h4>
+              I graduated from
+              <marl class="background-color-blue">MGASK</marl>, I'm a builder.
+            </p>
+          </li>
+          <li>
+            <p>
+              To be honest, at the moment my English is at a low level, but I am
+              using different translators and trying to learn the language at
+              the same time.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="social">
+            <a
+              class="social-link"
+              href="https://github.com/nikitenkomax"
+              target="_blank"
+              ><img
+                class="footer-icon"
+                src="images/github-icon.svg"
+                alt="github_logo"
+              />Github</a
+            >
+            <a class="social-link" href="https://rs.school/js/" target="_blank"
+              ><img
+                class="footer-icon"
+                src="images/rs_school_js.svg"
+                alt="rs_school_logo"
+              />The Rolling Scopes</a
+            >
+          </div>
+          <span class="foundation-year">©2021</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
